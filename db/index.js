@@ -6,14 +6,14 @@ const mysql = require('mysql')
 //     host: '127.0.0.1',
 //     user:'root',
 //     password:'admin123',
-//     database:'my_db_01'
+//     database:'my_d  b_01'
 // })
 const db = mysql.createPool({
     host: '4127.0.0.1',
     port: 3306,
     user:'umlsuser',
     password:'umls0902',
-    database:'aigraph_job'
+    database:'aigraph_job' 
 })
 
 module.exports = db
