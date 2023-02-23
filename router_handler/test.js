@@ -12,7 +12,7 @@ exports.regUser = (req, res)=>{
         }
         res.send({
             status: 0,
-            message: '获取数据成功',
+            message: '获取数据成功2',
             data: results
         })
     })
